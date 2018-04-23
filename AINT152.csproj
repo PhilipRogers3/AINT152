@@ -305,6 +305,7 @@
     <Compile Include="Assets\Scripts\BulletHit2D.cs" />
     <Compile Include="Assets\Scripts\Explosion.cs" />
     <Compile Include="Assets\Scripts\GameManger.cs" />
+    <Compile Include="Assets\Scripts\HealthBarScript.cs" />
     <Compile Include="Assets\Scripts\MouseSmoothLook2D.cs" />
     <Compile Include="Assets\Scripts\MoveTowardsObject.cs" />
     <Compile Include="Assets\Scripts\PlayerBehaviour.cs" />
@@ -313,6 +314,7 @@
     <Compile Include="Assets\Scripts\SmoothLookAtTarget2D.cs" />
     <Compile Include="Assets\Scripts\SpawnObject.cs" />
     <Compile Include="Assets\Scripts\SpawnObjectTimer.cs" />
+    <Compile Include="Assets\Scripts\Timer.cs" />
     <Compile Include="Assets\Scripts\TopDownCharacterController2D.cs" />
     <Compile Include="Assets\Scripts\ZombieBehaviour.cs" />
   </ItemGroup>
