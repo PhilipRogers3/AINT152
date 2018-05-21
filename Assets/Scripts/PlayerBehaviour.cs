@@ -20,18 +20,18 @@ public class PlayerBehaviour : MonoBehaviour {
 	}
 
     // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            GetComponent<AudioSource>().Play();
-            GetComponent<Animator>().SetBool("isFiring", true);
-        }
-        if (Input.GetMouseButtonUp(0))
-        {
-            GetComponent<Animator>().SetBool("isFiring", false);
-        }
-    }
+    //void Update()
+    //{
+    //    if (Input.GetMouseButtonDown(0))
+    //    {
+    //        GetComponent<AudioSource>().Play();
+    //        GetComponent<Animator>().SetBool("isFiring", true);
+    //    }
+    //    if (Input.GetMouseButtonUp(0))
+    //    {
+    //        GetComponent<Animator>().SetBool("isFiring", false);
+    //    }
+    //}
 
     public void TakeDamage(int damage)
     {
