@@ -301,7 +301,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 539.4
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -324,8 +324,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 124205067}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 960, y: 519, z: -507}
+  m_LocalScale: {x: 0.87, y: -16.77, z: -0.09}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -884,7 +884,7 @@ GameObject:
   - component: {fileID: 1138146319}
   m_Layer: 0
   m_Name: Hero acoustic guitar
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -958,7 +958,7 @@ GameObject:
   - component: {fileID: 1412522096}
   m_Layer: 0
   m_Name: Hero electric guitar
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1378,7 +1378,7 @@ GameObject:
   - component: {fileID: 2110181275}
   m_Layer: 0
   m_Name: Hero bass guitar
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1448,8 +1448,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2110181274}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1318, y: 435, z: 0}
-  m_LocalScale: {x: 374.26047, y: 265.2327, z: 1}
+  m_LocalPosition: {x: 1323, y: 440, z: 0}
+  m_LocalScale: {x: 348.2842, y: 279.82257, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4

@@ -7,7 +7,7 @@ public class GameManger : MonoBehaviour {
 
     public void StartGame()
     {
-        SceneManager.LoadScene("Game"); // change this to the level 1 
+        SceneManager.LoadScene("Level 1 ");
     }
     
     public void EndGame()
@@ -17,6 +17,12 @@ public class GameManger : MonoBehaviour {
 
     public void BackToMainMenu()
     {
-        SceneManager.LoadScene("JAZZ");
+        SceneManager.LoadScene("Main Menu");
+    }
+
+    public void EnterShop()
+    {
+        SceneManager.LoadScene("Shop Scene");
     }
 }
+
