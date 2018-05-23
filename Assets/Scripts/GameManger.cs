@@ -5,9 +5,15 @@ using UnityEngine;
 
 public class GameManger : MonoBehaviour {
 
+    public GameObject completeLevelUI;
     public void StartGame()
     {
         SceneManager.LoadScene("Level 1 ");
+    }
+
+    public void CompleteLevel()
+    {
+        completeLevelUI.SetActive(true);
     }
     
     public void EndGame()

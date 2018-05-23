@@ -23,8 +23,7 @@ public class ShopControlScript : MonoBehaviour
 	
 	
 	void Update ()
-    {
-        moneyAmountText.text = "Money" + moneyAmount.ToString() + "£";
+    { 
 
         isGuitarSold = PlayerPrefs.GetInt("isGuitarSold");
 

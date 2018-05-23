@@ -14,12 +14,13 @@ public class HealthBarScript : MonoBehaviour {
     {
         healthBar = GetComponent<Image>();
         health = maxHealth;
+        PlayerBehaviour.OnUpdateHealth += HandleonUpdateHealth;
 	}
 	
 	// Update is called once per frame
-	void Update ()
+	void HandleonUpdateHealth (int newHealth)
     {
-        healthBar.fillAmount = health / maxHealth;
+        healthBar.fillAmount = newHealth / maxHealth;
 		
 	}
 }
