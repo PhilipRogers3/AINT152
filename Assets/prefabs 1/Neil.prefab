@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36d90ea4f991df444afabec8dce95a24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 15
+  Score: {fileID: 0}
 --- !u!114 &114174152641488608
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -132,7 +132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 50
-  damage: 2
+  damage: 10
   explosionPrefab: {fileID: 1491248703554982, guid: 7175371d76d95524abf8263db970a801,
     type: 2}
   adjustExplosionAngle: 0
