@@ -11,6 +11,7 @@ public class PlayerBehaviour : MonoBehaviour {
     public int health = 100;
 
     private Animator gunAnim;
+    
 
 	// Use this for initialization
 	void Start ()
@@ -47,8 +48,7 @@ public class PlayerBehaviour : MonoBehaviour {
 
     void Die()
     {
-        //Destroy(gameObject);
-        SceneManager.LoadScene("Game Over");
+        FindObjectOfType<GameManager1>().EndGame();
     }
 
     void SendHealthData()

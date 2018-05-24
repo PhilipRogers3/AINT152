@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 
-public class GameManger : MonoBehaviour {
+public class GameManager : MonoBehaviour
+{
 
-    public GameObject completeLevelUI;
+    
     public void StartGame()
     {
         SceneManager.LoadScene("Level 1 ");
@@ -13,7 +14,8 @@ public class GameManger : MonoBehaviour {
 
     public void CompleteLevel()
     {
-        completeLevelUI.SetActive(true);
+
+        Debug.Log("LEVEL WON!");
     }
     
     public void EndGame()

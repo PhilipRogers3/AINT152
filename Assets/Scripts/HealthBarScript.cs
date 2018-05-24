@@ -9,7 +9,6 @@ public class HealthBarScript : MonoBehaviour {
     float maxHealth = 100f;
     public static float health;
 
-	// Use this for initialization
 	void Start ()
     {
         healthBar = GetComponent<Image>();
@@ -17,7 +16,6 @@ public class HealthBarScript : MonoBehaviour {
         PlayerBehaviour.OnUpdateHealth += HandleonUpdateHealth;
 	}
 	
-	// Update is called once per frame
 	void HandleonUpdateHealth (int newHealth)
     {
         healthBar.fillAmount = newHealth / maxHealth;

@@ -9,7 +9,7 @@ public class Timer : MonoBehaviour {
     public float startingTime;
     private Text theText;
     private float endTime;
-    private bool finish = false;
+    private bool finish = true;
 
 	// Use this for initialization
 	void Start ()
@@ -24,9 +24,9 @@ public class Timer : MonoBehaviour {
         theText.text = "" + Mathf.Round (startingTime);
         endTime = 0;
 
-        if (finish == true)
+        if (finish == false)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
+            SceneManager.LoadScene("Completed levels 1");
         }
 	}
 }

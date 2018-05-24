@@ -36,8 +36,9 @@ public class ZombieBehaviour : MonoBehaviour {
 
         if( health <= 0)
         {
+            AddScore.scorevalue += 10;
             Quaternion newRot = Quaternion.Euler(transform.eulerAngles.x, transform.eulerAngles.y, transform.eulerAngles.z + adjustExplosionAngle);
-
+            
             GameObject explosion = Instantiate(explosionPrefab, transform.position, newRot);
             Destroy(explosion, 1);
             GetComponent<AddScore>().DoSendScore();
